@@ -134,7 +134,7 @@ export const SignIn: React.FC<SignInProps> = ({ onClose }) => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3055/users/addUser",
+        "http://localhost:3055/user/addUser",
         formData
       );
 
