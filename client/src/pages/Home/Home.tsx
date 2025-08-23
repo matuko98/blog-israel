@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import { Destination } from "../../components/Destination/Destination";
+import { Faq } from "../../components/Faq/Faq";
 export const Home = () => {
   return (
     <div className="home-page">
@@ -14,8 +15,11 @@ export const Home = () => {
         </div>
       </section>
       <section className="section2">
-        <h2>Explore Israel Top Citys</h2>
+        <h2>Explore Israel Top Destination</h2>
         <Destination />
+      </section>
+      <section className="section3">
+        <Faq />
       </section>
     </div>
   );
