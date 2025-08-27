@@ -37,3 +37,18 @@
   font-style: italic;
   font-family: sans-serif;
 }
+
+@media (max-width: 768px) {
+  .destination-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .destination-grid img {
+    width: 100%;
+  }
+
+  .destination-card:hover {
+    transform: none;
+  }
+}

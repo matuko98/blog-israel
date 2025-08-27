@@ -33,6 +33,41 @@ export const Eilat = () => {
           </div>
         ))}
       </section>
+      <div className="eilat-review">
+        <h2>What people think...</h2>
+        <Slider
+          dots={true}
+          infinite={true}
+          speed={500}
+          slidesToShow={3}
+          slidesToScroll={1}
+          autoplay={true}
+          autoplaySpeed={4000}
+          responsive={[
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+              },
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+              },
+            },
+          ]}
+        >
+          {eilatReview.map((e, index) => (
+            <div key={index} className="eilat-recommendation-card">
+              <h4>{e.name}</h4>
+              <h5>{e.place}</h5>
+              <p className="stars">{e.star}</p>
+              <p>{e.text}</p>
+            </div>
+          ))}
+        </Slider>
+      </div>
     </div>
   );
 };

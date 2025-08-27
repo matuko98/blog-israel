@@ -190,6 +190,10 @@
     grid-template-columns: 1fr;
   }
 
+  .haifa-attraction:hover {
+    transform: none;
+  }
+
   .haifa-section1 h1 {
     font-size: 2rem;
     bottom: 5%;

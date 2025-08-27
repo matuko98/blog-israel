@@ -9,10 +9,6 @@ export const Home = () => {
         <h1>
           Welcome To Israel Tourist Guide <br /> Plan Your Vacation Now
         </h1>
-        <div className="buttons">
-          <button> Top 5 Places</button>
-          <button>Help</button>
-        </div>
       </section>
       <section className="section2">
         <h2>Explore Israel Top Destination</h2>

@@ -1,0 +1,19 @@
+.blog-page {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.blog-page-left {
+  display: flex;
+  width: 70%;
+  height: auto;
+  background-color: greenyellow;
+}
+
+.blog-page-right {
+  display: flex;
+  width: 40%;
+  height: auto;
+  background-color: pink;
+}
