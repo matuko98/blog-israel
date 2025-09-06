@@ -32,6 +32,7 @@ function App() {
         <Route path="/city/mitzpe-ramon" element={<MitzpeRamon />} />
         <Route path="/city/tel-aviv" element={<TelAviv />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/nature" element={<Nature />} />
       </Routes>
     </>
   );

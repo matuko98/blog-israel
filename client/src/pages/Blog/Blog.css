@@ -6,14 +6,18 @@
 
 .blog-page-left {
   display: flex;
-  width: 70%;
+  width: 50%;
   height: auto;
   background-color: greenyellow;
 }
 
 .blog-page-right {
   display: flex;
-  width: 40%;
+  width: 50%;
   height: auto;
   background-color: pink;
+}
+
+.israel-trip-category li {
+  cursor: pointer;
 }

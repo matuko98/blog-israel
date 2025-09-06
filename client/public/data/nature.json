@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Ein Gedi Nature Reserve",
+    "description": "A stunning oasis near the Dead Sea with waterfalls, wildlife, and hiking trails.",
+    "image": "/images/ein-gedi.jpg"
+  },
+  {
+    "title": "Mount Hermon",
+    "description": "The highest mountain in Israel, offering snow in winter and nature trails in summer.",
+    "image": "/images/mount-hermon.jpg"
+  }
+]
